@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./images/logo.svg";
+import "./App.css";
+import Printer from "./Printer.js";
+import LandingPage from "./LandingPage";
 
 function App() {
+  const background = {
+    backgroundImage: `url(${require("./images/landing.png")})`,
+    backgroundPosition: "center",
+    backgroundSize: "cover",
+    backgroundRepeat: "repeat-x",
+    width: "100vw",
+    height: "100vh",
+    scrollY: "smooth"
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={background}>
+      <LandingPage></LandingPage>
+      <Printer str="Welcome!, I'm Mamatha 👋"></Printer>
+      <Printer str="Welcome!, I'm Mamatha 👋"></Printer>
     </div>
   );
 }
