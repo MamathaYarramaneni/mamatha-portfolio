@@ -1,0 +1,56 @@
+.about-section {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+.about {
+  color: white;
+  /* padding-bottom: 10px; */
+  /* border-bottom: thick solid #ffffff; */
+  /* position: absolute;
+  top: 15%;
+  left: 15%; */
+  font-size: 40px;
+}
+
+.about-me {
+  color: #d4d3cf;
+  padding-bottom: 10px;
+  /* position: relative;
+  top: 20%;
+  left: 15%; */
+  font-size: 25px;
+}
+
+.about-roles {
+  color: #d4d3cf;
+  /* position: relative;
+  top: 45%;
+  left: 15%; */
+  width: 100%
+}
+
+.nextui-c-eFfoBo {
+  
+  background-color: #373c6b;
+}
+
+Text {
+  color: #cbcbcb;
+  font-weight: 600;
+}
+
+.grid-container {
+  width: 100%;
+}
+
+.about-card {
+  height: 50px;
+  align-items: center;
+  box-shadow: #ffffff;
+  border-color: aqua;
+}
+
+/* .about-card Text {
+  color: white;
+} */

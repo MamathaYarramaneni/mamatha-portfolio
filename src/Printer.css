@@ -11,6 +11,10 @@
   font-size: 50px;
 }
 
+.welcome-submessage {
+  font-size: 30px;
+}
+
 .container {
   display: flex;
   align-items: center;

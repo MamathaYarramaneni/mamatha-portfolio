@@ -26,7 +26,7 @@ export default function Printer({ str }) {
           <h1 className="welcome-message">{str?.slice(0, val)}</h1>
         </div>
         <div>
-          <h3>
+          <h3  className="welcome-submessage">
             This website is a manifestation of my software development skills
           </h3>
         </div>
