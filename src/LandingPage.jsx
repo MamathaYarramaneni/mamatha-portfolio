@@ -1,25 +1,28 @@
 import "./LandingPage.css";
+import { Avatar } from "@nextui-org/react";
 
 export default function LandingPage() {
   return (
     <header>
-      <a href="home.html" class="logo">Mamatha Yarramaneni</a>
+      <a href="#home" class="logo"> 
+          Mamatha Yarramaneni
+          </a>
       <nav>
         <ul className="mainMenu">
           <li>
-            <a href="home.html">Home</a>
+            <a href="#about" >About</a>
           </li>
           <li>
-            <a href="projects.html">Projects</a>
+            <a href="#career">Experience</a>
           </li>
           <li>
-            <a href="blog.html">Blog</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="about.html">About</a>
+            <a href="#layer3">Skills</a>
           </li>
           <li>
-            <a href="contact.html">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>

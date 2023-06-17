@@ -1,18 +1,25 @@
 .welcome {
   color: white;
   padding-left: 10px;
-  border-left: thick solid #ffffff;
+  /* border-left: thick solid #ffffff; */
   position: absolute;
-  top: 30%;
-  left: 30%;
+  top: 25%;
+  left: 25%;
 }
 
 .welcome-message {
-  font-size: 50px;
+  font-size: 75px;
+  margin-top: 0;
+  background: -webkit-linear-gradient( #e28c73,#f7d5b2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .welcome-submessage {
-  font-size: 30px;
+  font-size: 20px;
+  color: rgb(184, 184, 184);
+  text-align: justify;
+  width: 70%;
 }
 
 .container {
@@ -25,7 +32,7 @@
 
 .icon-scroll {
   position: absolute;
-  top: 90%;
+  bottom: 1%;
   left: 50%;
   width: 1em;
   height: 3.125em;

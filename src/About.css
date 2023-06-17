@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 .about-section {
   position: absolute;
   top: 15%;
@@ -10,16 +12,35 @@
   /* position: absolute;
   top: 15%;
   left: 15%; */
-  font-size: 40px;
+  font-size: 50px;
+}
+
+.about-section-career {
+  position: absolute;
+  top: 1%;
+  left: 15%;
+}
+.about-career {
+  color: white;
+  padding-bottom: 15px;
+  /* border-bottom: thick solid #ffffff; */
+  /* position: absolute;
+  top: 15%;
+  left: 15%; */
+  font-size: 50px;
 }
 
 .about-me {
-  color: #d4d3cf;
+  /* color: #d4d3cf; */
   padding-bottom: 10px;
   /* position: relative;
   top: 20%;
   left: 15%; */
-  font-size: 25px;
+  /* font-size: 25px; */
+  margin-right: 20%;
+  font-size: 22px;
+  color: rgb(184, 184, 184);
+  text-align: justify;
 }
 
 .about-roles {
@@ -27,12 +48,13 @@
   /* position: relative;
   top: 45%;
   left: 15%; */
-  width: 100%
+  width: 80%;
+  font-size: 10px;
 }
 
 .nextui-c-eFfoBo {
   
-  background-color: #373c6b;
+  background-color: #e28c73;
 }
 
 Text {
@@ -50,6 +72,12 @@ Text {
   box-shadow: #ffffff;
   border-color: aqua;
 }
+
+.about-card:hover{
+  background-color: '#f7d5b2';
+}
+
+
 
 /* .about-card Text {
   color: white;

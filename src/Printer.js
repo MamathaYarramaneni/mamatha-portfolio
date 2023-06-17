@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Printer.css";
 
-export default function Printer({ str }) {
+export default function Printer() {
+  const str = "Mamatha.";
   const [val, setVal] = useState(0);
   const stop = useRef();
 
@@ -23,11 +24,14 @@ export default function Printer({ str }) {
     <div className="container">
       <div className="welcome">
         <div>
+          <h1 style={{ marginBottom: "0px" }}>Welcome, I'm</h1>
           <h1 className="welcome-message">{str?.slice(0, val)}</h1>
         </div>
         <div>
-          <h3  className="welcome-submessage">
-            This website is a manifestation of my software development skills
+          <h3 className="welcome-submessage">
+            This website is a manifestation of my web development skills. I am a
+            Software Engineer. Please feel free to checkout the website and
+            contact me on my socials. Currently, I'm open to work :D
           </h3>
         </div>
       </div>
@@ -35,9 +39,6 @@ export default function Printer({ str }) {
         <div class="icon-scroll">
           <div class="mouse">
             <div class="wheel"></div>
-          </div>
-          <div class="icon-arrows">
-            <span></span>
           </div>
         </div>
       </div>
