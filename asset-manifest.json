@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/mamatha-portfolio/static/css/main.64814b03.css",
-    "main.js": "/mamatha-portfolio/static/js/main.3a8698d4.js",
+    "main.css": "/mamatha-portfolio/static/css/main.0f120aad.css",
+    "main.js": "/mamatha-portfolio/static/js/main.046c191d.js",
     "static/js/787.fbaae7ab.chunk.js": "/mamatha-portfolio/static/js/787.fbaae7ab.chunk.js",
+    "static/media/logo-navis.png": "/mamatha-portfolio/static/media/logo-navis.ef5cb0cd0217288331a4.png",
     "static/media/Mamatha_Yarramaneni_resume.pdf": "/mamatha-portfolio/static/media/Mamatha_Yarramaneni_resume.80f22a3bc8eb11effc14.pdf",
     "static/media/layer-1-3.png": "/mamatha-portfolio/static/media/layer-1-3.8737b1c748fe26f5f01b.png",
+    "static/media/logo-ub.png": "/mamatha-portfolio/static/media/logo-ub.6e754744eabd6cbf1232.png",
     "static/media/roboto-latin-900italic.woff": "/mamatha-portfolio/static/media/roboto-latin-900italic.c20d916c1a1b094c1cec.woff",
     "static/media/roboto-latin-300italic.woff": "/mamatha-portfolio/static/media/roboto-latin-300italic.bd5b7a13f2c52b531a2a.woff",
     "static/media/roboto-latin-500italic.woff": "/mamatha-portfolio/static/media/roboto-latin-500italic.18d00f739ff1e1c52db1.woff",
@@ -31,12 +33,12 @@
     "static/media/roboto-latin-900.woff2": "/mamatha-portfolio/static/media/roboto-latin-900.870c8c1486f76054301a.woff2",
     "static/media/logo.svg": "/mamatha-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/mamatha-portfolio/index.html",
-    "main.64814b03.css.map": "/mamatha-portfolio/static/css/main.64814b03.css.map",
-    "main.3a8698d4.js.map": "/mamatha-portfolio/static/js/main.3a8698d4.js.map",
+    "main.0f120aad.css.map": "/mamatha-portfolio/static/css/main.0f120aad.css.map",
+    "main.046c191d.js.map": "/mamatha-portfolio/static/js/main.046c191d.js.map",
     "787.fbaae7ab.chunk.js.map": "/mamatha-portfolio/static/js/787.fbaae7ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64814b03.css",
-    "static/js/main.3a8698d4.js"
+    "static/css/main.0f120aad.css",
+    "static/js/main.046c191d.js"
   ]
 }
