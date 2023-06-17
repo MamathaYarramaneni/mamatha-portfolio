@@ -1,19 +1,25 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap");
 
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: 'Roboto Mono', monospace;
-  font-size: 14px;
+@media screen {
+  body,
+  html {
+    height: 100%;
+    margin: 0;
+    font-family: "Roboto Mono", monospace;
+    font-size: 14px;
+    overflow-x: scroll;
+  }
 }
 
 body {
   margin: 0;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: scroll;
 }
 
 code {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
+  overflow-x: scroll;
 }

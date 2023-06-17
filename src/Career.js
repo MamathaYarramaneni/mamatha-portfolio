@@ -1,6 +1,9 @@
-import { Card, Grid, Text, Link, css, Button } from "@nextui-org/react";
+import { Card, Grid, Text, Link, css, Button, Avatar } from "@nextui-org/react";
 import "./About.css";
 import ResumeDoc from "../src/files/Mamatha_Yarramaneni_resume.pdf";
+import navis_logo from "./images/logo-navis.png";
+import ub_logo from "./images/logo-ub.png";
+
 
 export default function Career() {
   const cardcss = {
@@ -8,56 +11,132 @@ export default function Career() {
     mw: "315px",
     mh: "100px",
     position: "absolute",
-    bottom: "15%",
+    // bottom: "15%",
     left: "9%",
+    marginBottom: "3px",
   };
   const cardcss2 = {
     p: "$3",
     mw: "350px",
     mh: "100px",
-    position: "absolute",
-    bottom: "43%",
-    left: "14%",
+    position: "relative",
+    // bottom: "15%",
+    left: "9%",
+    marginBottom: "3px",
   };
 
   const cardcss3 = {
     p: "$3",
     mw: "300px",
     mh: "100px",
-    position: "absolute",
-    bottom: "42%",
-    left: "54%",
+    position: "relative",
+    // bottom: "15%",
+    left: "9%",
+    marginBottom: "3px",
   };
   const cardcss4 = {
     p: "$3",
     mw: "305px",
     mh: "100px",
-    position: "absolute",
-    top: "30%",
-    right: "13%",
+    position: "relative",
+    // bottom: "15%",
+    left: "9%",
+    marginBottom: "3px",
   };
   const cardcss5 = {
     p: "$3",
     mw: "380px",
     mh: "100px",
-    position: "absolute",
-    top: "8%",
-    right: "3%",
+    position: "relative",
+    // bottom: "15%",
+    left: "9%",
+    marginBottom: "3px",
   };
   return (
     <div>
       <div className="about-section-career">
-        <h3 className="about-career">EDUCATION AND WORK EXPERIENCE</h3>
-        <Grid>
-          <a href={ResumeDoc} download="Resume">
-            <Button color="success" auto ghost size="lg">
-              <b>Download Resume</b>
+        <h3 className="about-career">EDUCATION AND WORK EXPERIENCE.</h3>
+        <Grid.Container>
+          <Grid xs={2}>
+            <Button
+              color="#f7d5b2"
+              auto
+              ghost
+              size="lg"
+              css={{
+                color: "#f7d5b2",
+                "&:hover": {
+                  background: "#ff8c6e",
+                  color: "white",
+                },
+              }}
+              onClick={() => window.open(ResumeDoc)}
+            >
+              <b>View Resume</b>
             </Button>
-          </a>
-        </Grid>
+          </Grid>
+          <Grid xs={3}>
+            <a href={ResumeDoc} download="Resume">
+              <Button
+                color="#f7d5b2"
+                auto
+                ghost
+                size="lg"
+                css={{
+                  color: "#f7d5b2",
+                  "&:hover": {
+                    background: "#ff8c6e",
+                    color: "white",
+                  },
+                }}
+              >
+                <b>Download Resume</b>
+              </Button>
+            </a>
+          </Grid>
+        </Grid.Container>
+        <div className="education">
+          <Grid.Container gap={2}>
+            <Grid>
+              <Avatar
+                size="xl"
+                src="https://yt3.googleusercontent.com/sO3qth8BMUdniBjTSgzYf35RarbBGTp2-H-FtxQxQ6RuUUkL91MF_98gvR1VE9NvOxFd57OCK3Q=s900-c-k-c0x00ffffff-no-rj"
+                color="primary"
+                squared
+                bordered
+                css={{
+                    color: "black",
+                    // "&:hover": {
+                    //   background: "#ff8c6e",
+                    //   color: "white",
+                    // },
+                  }}
+              />
+            </Grid>
+            <Grid>
+              <Avatar
+                size="xl"
+                src={navis_logo}
+                color="secondary"
+                // css={{ size: "$20" }}
+                squared
+                bordered
+              />
+            </Grid>
+            <Grid>
+              <Avatar
+                size="xl"
+                src={ub_logo}
+                color="success"
+                squared
+                bordered
+              />
+            </Grid>
+          </Grid.Container>
+        </div>
       </div>
 
-      <Card css={cardcss}>
+      {/* <Card css={cardcss}>
         <Card.Header>
           <a href="https://www.sastra.edu/" target="_blank">
             <img
@@ -104,7 +183,7 @@ export default function Career() {
             Make beautiful websites regardless of your design experience.
           </Text>
         </Card.Body> */}
-        {/* <Card.Footer>
+      {/* <Card.Footer>
           <Link
             icon
             color="primary"
@@ -113,7 +192,7 @@ export default function Career() {
           >
             Visit source code on GitHub.
           </Link>
-        </Card.Footer> */}
+        </Card.Footer> }
       </Card>
       <Card css={cardcss2}>
         <Card.Header>
@@ -240,7 +319,7 @@ export default function Career() {
             Make beautiful websites regardless of your design experience.
           </Text>
         </Card.Body> */}
-        {/* <Card.Footer>
+      {/* <Card.Footer>
           <Link
             icon
             color="primary"
@@ -249,7 +328,7 @@ export default function Career() {
           >
             Visit source code on GitHub.
           </Link>
-        </Card.Footer> */}
+        </Card.Footer> }
       </Card>
       <Card css={cardcss5}>
         <Card.Header>
@@ -296,7 +375,7 @@ export default function Career() {
             Make beautiful websites regardless of your design experience.
           </Text>
         </Card.Body> */}
-        {/* <Card.Footer>
+      {/* <Card.Footer>
           <Link
             icon
             color="primary"
@@ -305,8 +384,8 @@ export default function Career() {
           >
             Visit source code on GitHub.
           </Link>
-        </Card.Footer> */}
-      </Card>
+        </Card.Footer> }
+      </Card> */}
     </div>
   );
 }

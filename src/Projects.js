@@ -159,7 +159,7 @@ export default function Projects() {
         <span
           style={{ color: "white", display: "inline-block", fontSize: "15px" }}
         >
-          Copyright © 2023 Made with{" "}
+          Copyright © 2023  Made with{" "}
           <box-icon
             type="solid"
             name="heart"

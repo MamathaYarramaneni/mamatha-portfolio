@@ -82,3 +82,10 @@ Text {
 /* .about-card Text {
   color: white;
 } */
+
+.education {
+  margin-top: 15px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}

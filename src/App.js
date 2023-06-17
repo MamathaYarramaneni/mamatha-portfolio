@@ -17,6 +17,7 @@ function App() {
     width: "100vw",
     height: "100vh",
     // scrollY: "smooth",
+    scrollX: "smooth",
   };
 
   const background2 = {
@@ -25,6 +26,7 @@ function App() {
     backgroundSize: "cover",
     display: "flex",
     // backgroundRepeat: "no-repeat",
+    scrollX: "smooth",
   };
 
   const background3 = {
@@ -37,7 +39,7 @@ function App() {
     width: "100vw",
     height: "100vh",
     // backgroundRepeat: "no-repeat",
-    // scrollY: "smooth",
+    scrollY: "smooth",
   };
 
   return (
