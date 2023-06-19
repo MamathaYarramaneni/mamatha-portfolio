@@ -2,9 +2,9 @@
   color: white;
   padding-left: 10px;
   /* border-left: thick solid #ffffff; */
-  position: absolute;
+  /* position: absolute;
   top: 25%;
-  left: 25%;
+  left: 25%; */
 }
 
 .welcome-message {
@@ -31,9 +31,9 @@
 }
 
 .icon-scroll {
-  position: absolute;
+  /* position: absolute;
   bottom: 1%;
-  left: 50%;
+  left: 50%; */
   width: 1em;
   height: 3.125em;
   transform: translateX(-50%) scale(2);

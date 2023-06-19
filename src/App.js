@@ -15,7 +15,7 @@ function App() {
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     width: "100vw",
-    height: "100vh",
+    // height: "100vh",
     // scrollY: "smooth",
     scrollX: "smooth",
   };
@@ -44,25 +44,25 @@ function App() {
 
   return (
     <div>
-      <Parallax pages={4}>
-        <ParallaxLayer offset={0} id="home" style={background}>
+      {/* <Parallax pages={4}> */}
+        <section offset={0} id="home" style={background}>
           <LandingPage></LandingPage>
           <Printer ></Printer>
-        </ParallaxLayer>
-        <ParallaxLayer offset={1} id="about" style={background2}>
+        </section>
+        <section offset={1} id="about" style={background2}>
           <About></About>
-        </ParallaxLayer>
-        <ParallaxLayer offset={2} id="career" style={background3}>
+        </section>
+        <section offset={2} id="career" style={background3}>
           <Career></Career>
-        </ParallaxLayer>
-        <ParallaxLayer offset={3} id="projects" style={background2}>
+        </section>
+        <section offset={3} id="projects" style={background2}>
           <Projects></Projects>
-        </ParallaxLayer>
+        </section>
         {/* <ParallaxLayer offset={0} className="center" style={{backgroundImage: "linear-gradient(#e66465, #9198e5)"}}>
         </ParallaxLayer>
        
          */}
-      </Parallax>
+      {/* </Parallax> */}
       {/* <Printer str="Welcome!, I'm Mamatha 👋"></Printer> */}
     </div>
   );

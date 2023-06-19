@@ -10,7 +10,7 @@ export default function Career() {
     p: "$3",
     mw: "315px",
     mh: "100px",
-    position: "absolute",
+    position: "relative",
     // bottom: "15%",
     left: "9%",
     marginBottom: "3px",

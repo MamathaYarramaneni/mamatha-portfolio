@@ -30,9 +30,9 @@ export default function Projects() {
       </div> */}
       <div
         style={{
-          position: "absolute",
-          top: "20%",
-          left: "15%",
+        //   position: "absolute",
+        //   top: "20%",
+        //   left: "15%",
           margin: "auto",
         }}
       >
@@ -150,9 +150,9 @@ export default function Projects() {
       </div>
       <div
         style={{
-          position: "absolute",
-          left: "50%",
-          bottom: "1%",
+        //   position: "absolute",
+        //   left: "50%",
+        //   bottom: "1%",
           transform: "translate(-50%, -50%)",
         }}
       >

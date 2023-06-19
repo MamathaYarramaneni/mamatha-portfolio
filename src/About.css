@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 .about-section {
-  position: absolute;
+  /* position: absolute;
   top: 15%;
-  left: 15%;
+  left: 15%; */
 }
 .about {
   color: white;
@@ -16,9 +16,9 @@
 }
 
 .about-section-career {
-  position: absolute;
+  /* position: absolute;
   top: 1%;
-  left: 15%;
+  left: 15%; */
 }
 .about-career {
   color: white;
