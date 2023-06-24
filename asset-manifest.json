@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mamatha-portfolio/static/css/main.0f120aad.css",
-    "main.js": "/mamatha-portfolio/static/js/main.046c191d.js",
+    "main.css": "/mamatha-portfolio/static/css/main.ff1af318.css",
+    "main.js": "/mamatha-portfolio/static/js/main.5ad6e80c.js",
     "static/js/787.fbaae7ab.chunk.js": "/mamatha-portfolio/static/js/787.fbaae7ab.chunk.js",
     "static/media/logo-navis.png": "/mamatha-portfolio/static/media/logo-navis.ef5cb0cd0217288331a4.png",
     "static/media/Mamatha_Yarramaneni_resume.pdf": "/mamatha-portfolio/static/media/Mamatha_Yarramaneni_resume.80f22a3bc8eb11effc14.pdf",
@@ -33,12 +33,12 @@
     "static/media/roboto-latin-900.woff2": "/mamatha-portfolio/static/media/roboto-latin-900.870c8c1486f76054301a.woff2",
     "static/media/logo.svg": "/mamatha-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/mamatha-portfolio/index.html",
-    "main.0f120aad.css.map": "/mamatha-portfolio/static/css/main.0f120aad.css.map",
-    "main.046c191d.js.map": "/mamatha-portfolio/static/js/main.046c191d.js.map",
+    "main.ff1af318.css.map": "/mamatha-portfolio/static/css/main.ff1af318.css.map",
+    "main.5ad6e80c.js.map": "/mamatha-portfolio/static/js/main.5ad6e80c.js.map",
     "787.fbaae7ab.chunk.js.map": "/mamatha-portfolio/static/js/787.fbaae7ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f120aad.css",
-    "static/js/main.046c191d.js"
+    "static/css/main.ff1af318.css",
+    "static/js/main.5ad6e80c.js"
   ]
 }
