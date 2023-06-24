@@ -6,6 +6,7 @@ import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import About from "./About";
 import Career from "./Career";
 import Projects from "./Projects";
+import Education from "./education";
 
 function App() {
   const background = {
@@ -44,7 +45,7 @@ function App() {
 
   return (
     <div>
-      <Parallax pages={4}>
+      <Parallax pages={5}>
         <ParallaxLayer offset={0} id="home" style={background}>
           <LandingPage></LandingPage>
           <Printer ></Printer>
@@ -55,7 +56,10 @@ function App() {
         <ParallaxLayer offset={2} id="career" style={background3}>
           <Career></Career>
         </ParallaxLayer>
-        <ParallaxLayer offset={3} id="projects" style={background2}>
+        <ParallaxLayer offset={3} id="education" style={background3}>
+          <Education></Education>
+        </ParallaxLayer>
+        <ParallaxLayer offset={4} id="projects" style={background2}>
           <Projects></Projects>
         </ParallaxLayer>
         {/* <ParallaxLayer offset={0} className="center" style={{backgroundImage: "linear-gradient(#e66465, #9198e5)"}}>
