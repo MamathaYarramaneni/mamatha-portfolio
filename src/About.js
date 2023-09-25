@@ -14,7 +14,7 @@ export default function About() {
       <h6 className="about-me">
         I am a persevering, conscientious, and quick-witted individual.
         Currently pursuing Masters in Computer Science at the University at
-        Buffalo. Actively seeking full time opportunities.
+        Buffalo. Actively seeking full time opportunities starting Jan 2024.
       </h6>
       <div className="about-roles">
         <Grid.Container className="grid-container" gap={1} justify="center">
@@ -69,25 +69,6 @@ export default function About() {
               <Card.Body>
                 <Text style={{ marginBottom: 0 }}>
                   <box-icon
-                    type="logo"
-                    name="react"
-                    color="white"
-                    animation="tada"
-                  ></box-icon>
-                </Text>
-                <Text
-                  style={{ color: "white", fontWeight: 600, fontSize: "18px" }}
-                >
-                  Frontend Developer
-                </Text>
-              </Card.Body>
-            </Card>
-          </Grid>
-          <Grid lg={3}>
-            <Card isHoverable variant="bordered" className="about-card">
-              <Card.Body>
-                <Text style={{ marginBottom: 0 }}>
-                  <box-icon
                     type="solid"
                     name="data"
                     color="white"
@@ -98,6 +79,25 @@ export default function About() {
                   style={{ color: "white", fontWeight: 600, fontSize: "18px" }}
                 >
                   Backend Developer
+                </Text>
+              </Card.Body>
+            </Card>
+          </Grid>
+          <Grid lg={3}>
+            <Card isHoverable variant="bordered" className="about-card">
+              <Card.Body>
+                <Text style={{ marginBottom: 0 }}>
+                  <box-icon
+                    type="logo"
+                    name="react"
+                    color="white"
+                    animation="tada"
+                  ></box-icon>
+                </Text>
+                <Text
+                  style={{ color: "white", fontWeight: 600, fontSize: "18px" }}
+                >
+                  Frontend Developer
                 </Text>
               </Card.Body>
             </Card>

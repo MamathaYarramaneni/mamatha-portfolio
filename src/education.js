@@ -75,7 +75,7 @@ export default function Education() {
             </Button>
           </Grid>
           <Grid>
-            <a href={ResumeDoc} download="Resume">
+            <a href={ResumeDoc} download="Mamatha_Yarramaneni_Resume">
               <Button
                 color="#f7d5b2"
                 auto
@@ -189,7 +189,7 @@ export default function Education() {
                     squared
                     bordered
                     css={{
-                      color: "black"
+                      color: "black",
                     }}
                   />
                   <div>

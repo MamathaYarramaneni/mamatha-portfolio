@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Printer.css";
+import { Avatar, Grid } from "@nextui-org/react";
+import ub_logo from "../src/images/logo-1.jpeg";
 
 export default function Printer() {
   const str = "Mamatha.";
@@ -34,6 +36,51 @@ export default function Printer() {
             contact me on my socials. Currently, I'm open to work :D
           </h3>
         </div>
+        <Grid.Container gap={4} style={{ alignItems: "center" }}>
+          <Grid>
+            <Avatar
+              size="xl"
+              src={
+                "https://www.pagetraffic.com/blog/wp-content/uploads/2022/09/linkedin-blue-logo-icon.png"
+              }
+              bordered
+              squared
+              color="warning"
+              style={{ cursor: "pointer" }}
+              onClick={() =>
+                window.open("https://www.linkedin.com/in/mamatha-y/", "_blank")
+              }
+            />
+          </Grid>
+          <Grid>
+            <Avatar
+              size="xl"
+              src={"https://cdn-icons-png.flaticon.com/512/25/25231.png"}
+              bordered
+              squared
+              color="warning"
+              style={{ cursor: "pointer" }}
+              onClick={() =>
+                window.open("https://github.com/MamathaYarramaneni", "_blank")
+              }
+            />
+          </Grid>
+          <Grid>
+            <Avatar
+              size="xl"
+              src={
+                "https://assets.leetcode.com/users/leetcode/avatar_1568224780.png"
+              }
+              bordered
+              squared
+              color="warning"
+              style={{ cursor: "pointer" }}
+              onClick={() =>
+                window.open("https://leetcode.com/ma_ya_/", "_blank")
+              }
+            />
+          </Grid>
+        </Grid.Container>
       </div>
       <div className="scroll">
         <div class="icon-scroll">

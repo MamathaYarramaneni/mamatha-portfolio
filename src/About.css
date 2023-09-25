@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
 .about-section {
   position: absolute;
@@ -53,7 +53,6 @@
 }
 
 .nextui-c-eFfoBo {
-  
   background-color: #e28c73;
 }
 
@@ -67,17 +66,15 @@ Text {
 }
 
 .about-card {
-  height: 50px;
+  height: 150px;
   align-items: center;
   box-shadow: #ffffff;
   border-color: aqua;
 }
 
-.about-card:hover{
-  background-color: '#f7d5b2';
+.about-card:hover {
+  background-color: "#f7d5b2";
 }
-
-
 
 /* .about-card Text {
   color: white;

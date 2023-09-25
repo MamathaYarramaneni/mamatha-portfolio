@@ -196,24 +196,24 @@
 }
 
 .card2-education {
-    display: block;
-    top: 0px;
-    position: relative;
-    max-width: 500px;
-    background-color: #f7d5b2;
-    border-radius: 4px;
-    padding: 20px 18px;
-    padding-bottom: 5px;
-    margin: 12px;
-    text-decoration: none;
-    z-index: 0;
-    overflow: hidden;
-    border: 1px solid #f2f8f9;
-    color: #05446c;
-    text-align: justify;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  
-    /* &:hover {
+  /* height: "300px" !; */
+  display: block;
+  top: 0px;
+  position: relative;
+  max-width: 500px;
+  background-color: #f7d5b2;
+  border-radius: 4px;
+  padding: 20px 18px;
+  padding-bottom: 5px;
+  margin: 12px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  border: 1px solid #f2f8f9;
+  color: #05446c;
+  text-align: justify;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  /* &:hover {
       transition: all 0.2s ease-out;
       box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
       top: -4px;
@@ -221,8 +221,8 @@
       background-color: #ff8c6e;
       color: white;
     } */
-  
-    /* &:before {
+
+  /* &:before {
       content: "";
       position: absolute;
       z-index: -1;
@@ -240,4 +240,4 @@
     &:hover:before {
       transform: scale(2.15);
     } */
-  }
+}

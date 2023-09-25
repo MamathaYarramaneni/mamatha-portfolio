@@ -19,6 +19,7 @@ function App() {
     height: "100vh",
     // scrollY: "smooth",
     scrollX: "smooth",
+    overflow: "auto",
   };
 
   const background2 = {
@@ -28,6 +29,7 @@ function App() {
     display: "flex",
     // backgroundRepeat: "no-repeat",
     scrollX: "smooth",
+    overflow: "auto",
   };
 
   const background3 = {
@@ -41,14 +43,15 @@ function App() {
     height: "100vh",
     // backgroundRepeat: "no-repeat",
     scrollY: "smooth",
+    overflow: "auto",
   };
 
   return (
-    <div>
+    <div href="#home">
       <Parallax pages={5}>
         <ParallaxLayer offset={0} id="home" style={background}>
           <LandingPage></LandingPage>
-          <Printer ></Printer>
+          <Printer></Printer>
         </ParallaxLayer>
         <ParallaxLayer offset={1} id="about" style={background2}>
           <About></About>
@@ -59,7 +62,7 @@ function App() {
         <ParallaxLayer offset={3} id="education" style={background3}>
           <Education></Education>
         </ParallaxLayer>
-        <ParallaxLayer offset={4} id="projects" style={background2}>
+        <ParallaxLayer offset={4} id="projects" style={background3}>
           <Projects></Projects>
         </ParallaxLayer>
         {/* <ParallaxLayer offset={0} className="center" style={{backgroundImage: "linear-gradient(#e66465, #9198e5)"}}>

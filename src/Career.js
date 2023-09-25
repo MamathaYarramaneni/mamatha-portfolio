@@ -272,7 +272,7 @@ export default function Career() {
             </Button>
           </Grid>
           <Grid>
-            <a href={ResumeDoc} download="Resume">
+            <a href={ResumeDoc} download="Mamatha_Yarramaneni_Resume">
               <Button
                 color="#f7d5b2"
                 auto
@@ -345,7 +345,47 @@ export default function Career() {
             justify="center"
             style={{ maxWidth: "90%", marginTop: "5%" }}
           >
-            <Grid lg={4} style={{ alignItems: "center" }}>
+            <Grid lg={4}>
+              <a class="card2-education" href="#">
+                <div style={{ display: "flex" }}>
+                  <Avatar
+                    size="xl"
+                    src={
+                      "https://media.licdn.com/dms/image/C4D0BAQE1LCBFeeP25g/company-logo_200_200/0/1658248328250?e=2147483647&v=beta&t=pk85qDPMAK0jAVAxwvP3R9Ju_L9BK-BBqiIi2Fa59Oo"
+                    }
+                    color="secondary"
+                    // css={{ size: "$20" }}
+                    squared
+                    bordered
+                  />
+                  <div>
+                    <h3
+                      style={{
+                        marginTop: "2px",
+                        marginBottom: "2px",
+                        marginLeft: "10px",
+                      }}
+                    >
+                      Ultimate Tool & Safety
+                    </h3>
+                    <h4 style={{ marginTop: "2px", marginLeft: "10px" }}>
+                      SOFTWARE ENGINEER INTERN
+                    </h4>
+                  </div>
+                </div>
+                <p class="small" style={{ width: "100%" }}>
+                  July 2023 - Present
+                  <br />
+                  <br />
+                  Designed, developed, and deployed a scalable end-to-end
+                  software application which included full-stack engineering,
+                  database administration, load balancing, and web hosting. This
+                  was achieved using React, Redux, NodeJS, PostgreSQL, Nginx,
+                  and hosted on AWS infrastructure.
+                </p>
+              </a>
+            </Grid>
+            <Grid lg={4}>
               <a class="card2-education" href="#">
                 <div style={{ display: "flex" }}>
                   <Avatar
@@ -363,22 +403,24 @@ export default function Career() {
                         marginLeft: "10px",
                       }}
                     >
-                      UNIVERSITY AT BUFFALO
+                      University at Buffalo
                     </h3>
                     <h4 style={{ marginTop: "2px", marginLeft: "10px" }}>
-                      Graduate Teaching Assistant
+                      GRADUATE TEACHING ASSISTANT - GRADER
                     </h4>
                   </div>
                 </div>
                 <p class="small" style={{ width: "100%" }}>
                   Jan 2023 - Present <br />
                   <br />
-                  Assisted professor with grading and clarified students' doubts
-                  and tracked their progress for the course CSE 4/560 - Data
-                  Models and Query Languages
+                  CSE 560 - Data Models and Query Languages: Provided one-on-one
+                  support to 8 project teams facing database design and
+                  integration challenges, inducing a 10% improvement in overall
+                  course progress.
                 </p>
               </a>
             </Grid>
+
             <Grid lg={4}>
               <a class="card2-education" href="#">
                 <div style={{ display: "flex" }}>
@@ -398,7 +440,7 @@ export default function Career() {
                         marginLeft: "10px",
                       }}
                     >
-                      NAVIS
+                      Navis
                     </h3>
                     <h4 style={{ marginTop: "2px", marginLeft: "10px" }}>
                       ASSOCIATE SOFTWARE ENGINEER
@@ -406,44 +448,12 @@ export default function Career() {
                   </div>
                 </div>
                 <p class="small" style={{ width: "100%" }}>
-                  July 2021 - Aug 2022 <br />
-                  Worked on the Full Stack Application Development using Angular
-                  and Spring Boot incorporating Functional Programming and Test
-                  Driven Development.
-                </p>
-              </a>
-            </Grid>
-            <Grid lg={4}>
-              <a class="card2-education" href="#">
-                <div style={{ display: "flex" }}>
-                  <Avatar
-                    size="xl"
-                    src={navis_logo}
-                    color="secondary"
-                    // css={{ size: "$20" }}
-                    squared
-                    bordered
-                  />
-                  <div>
-                    <h3
-                      style={{
-                        marginTop: "2px",
-                        marginBottom: "2px",
-                        marginLeft: "10px",
-                      }}
-                    >
-                      NAVIS
-                    </h3>
-                    <h4 style={{ marginTop: "2px", marginLeft: "10px" }}>
-                      ASSOCIATE SOFTWARE ENGINEER INTERN
-                    </h4>
-                  </div>
-                </div>
-                <p class="small" style={{ width: "100%" }}>
-                  Feb 2021 - June 2021 <br />
-                  Reduced the manual data updating by 90% by building an
-                  automation script for data population in existing microservice
-                  using Node JS and Typescript.
+                  Feb 2021 - August 2022 <br />
+                  <br />
+                  Engaged in integrating Angular and Spring Boot with
+                  high-quality code using Functional Programming and Test-Driven
+                  Development methods, triggering 30% faster project delivery
+                  and code defect reduction.
                 </p>
               </a>
             </Grid>
