@@ -1,25 +1,24 @@
 .welcome {
-  color: white;
+  color: black;
   padding-left: 10px;
   /* border-left: thick solid #ffffff; */
-  position: absolute;
-  top: 25%;
-  left: 25%;
 }
 
 .welcome-message {
   font-size: 75px;
   margin-top: 0;
-  background: -webkit-linear-gradient( #e28c73,#f7d5b2);
+  margin-bottom: 0;
+  background: -webkit-linear-gradient(#3170dc, #8fb5f7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .welcome-submessage {
   font-size: 20px;
-  color: rgb(184, 184, 184);
+  color: rgb(145, 144, 144);
   text-align: justify;
-  width: 70%;
+  width: 100%;
+  font-weight: 300;
 }
 
 .container {
@@ -31,7 +30,7 @@
 }
 
 .icon-scroll {
-  position: absolute;
+  position: relative;
   bottom: 1%;
   left: 50%;
   width: 1em;
@@ -44,6 +43,7 @@
 .icon-arrows::before {
   content: "";
 }
+
 .icon-arrows span,
 .icon-arrows::after,
 .icon-arrows::before {
@@ -74,7 +74,7 @@
 .icon-scroll .mouse {
   height: 1.375em;
   width: 0.875em;
-  border: 1px solid rgba(255, 255, 255, 0.8);
+  border: 1px solid rgb(145, 144, 144);
   border-radius: 2em;
 }
 
@@ -84,7 +84,7 @@
   height: 0.1875em;
   width: 0.1875em;
   margin: 0.1875em auto 0;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgb(145, 144, 144);
   animation: mouse-wheel 1.2s ease infinite;
   border-radius: 50%;
 }
@@ -105,9 +105,11 @@
   0% {
     opacity: 0;
   }
+
   50% {
     opacity: 0.5;
   }
+
   100% {
     opacity: 1;
   }

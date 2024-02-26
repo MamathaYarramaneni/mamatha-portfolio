@@ -7,14 +7,15 @@ import About from "./About";
 import Career from "./Career";
 import Projects from "./Projects";
 import Education from "./education";
+import { Divider } from "@nextui-org/react";
 
 function App() {
   const background = {
     // background: '#05446b',
-    backgroundImage: `url(${require("./images/layer-1-3.png")})`,
-    backgroundPosition: "center",
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
+    // backgroundImage: `url(${require("./images/layer-1-3.png")})`,
+    // backgroundPosition: "center",
+    // backgroundSize: "cover",
+    // backgroundRepeat: "no-repeat",
     width: "100vw",
     height: "100vh",
     // scrollY: "smooth",
@@ -23,9 +24,9 @@ function App() {
   };
 
   const background2 = {
-    background: "#05446b",
+    // background: "#05446b",
     // backgroundPosition: "center",
-    backgroundSize: "cover",
+    // backgroundSize: "cover",
     display: "flex",
     // backgroundRepeat: "no-repeat",
     scrollX: "smooth",
@@ -34,10 +35,10 @@ function App() {
 
   const background3 = {
     // backgroundImage: `url(${require("./images/layer-3-6.png")})`,
-    background: "#05446b",
-    backgroundPosition: "center",
-    backgroundSize: "100%",
-    backgroundRepeat: "no-repeat",
+    // background: "#05446b",
+    // backgroundPosition: "center",
+    // backgroundSize: "100%",
+    // backgroundRepeat: "no-repeat",
     // display: 'flex',
     width: "100vw",
     height: "100vh",
@@ -48,29 +49,88 @@ function App() {
 
   return (
     <div href="#home">
-      <Parallax pages={5}>
-        <ParallaxLayer offset={0} id="home" style={background}>
+
+      {/* <div id="home" style={background}>
+          <div>
+            <LandingPage></LandingPage>
+            <Printer></Printer>
+          </div>
+        </div>
+        <div offset={1} id="about" style={background2}>
+          <About></About>
+        </div>
+        <div offset={2} id="career" style={background3}>
+          <Career></Career>
+        </div>
+        <div offset={3} id="education" style={background3}>
+          <Education></Education>
+        </div>
+        <div offset={4} id="projects" style={background3}>
+          <Projects></Projects>
+        </div>
+      </div> */}
+
+      <div className="page">
+        <div className="content">
           <LandingPage></LandingPage>
           <Printer></Printer>
-        </ParallaxLayer>
-        <ParallaxLayer offset={1} id="about" style={background2}>
+        </div>
+      </div>
+      <div className="page" >
+        <div className="content" id="about">
           <About></About>
-        </ParallaxLayer>
-        <ParallaxLayer offset={2} id="career" style={background3}>
-          <Career></Career>
-        </ParallaxLayer>
-        <ParallaxLayer offset={3} id="education" style={background3}>
+        </div>
+      </div>
+      <div className="page">
+        <div className="content">
           <Education></Education>
-        </ParallaxLayer>
-        <ParallaxLayer offset={4} id="projects" style={background3}>
+        </div>
+      </div>
+      <div className="page">
+        <div className="content" id="career">
+          <Career></Career>
+        </div>
+      </div>
+      <div className="page">
+        <div className="content" id="projects">
           <Projects></Projects>
-        </ParallaxLayer>
-        {/* <ParallaxLayer offset={0} className="center" style={{backgroundImage: "linear-gradient(#e66465, #9198e5)"}}>
+        </div>
+      </div>
+      {/* <ParallaxLayer offset={0} className="center" style={{backgroundImage: "linear-gradient(#e66465, #9198e5)"}}>
         </ParallaxLayer>
        
          */}
-      </Parallax>
       {/* <Printer str="Welcome!, I'm Mamatha 👋"></Printer> */}
+      <div
+        style={{
+          bottom: 0,
+          width: "100%",
+          height: "60px",
+          marginTop: "10%",
+          width: "100%",
+          textAlign: "center",
+          backgroundColor: "#3170dc",
+          marginTop: "50px",
+          paddingBottom: "10px"
+        }}
+      >
+        <span
+          style={{ color: "white", display: "inline-block", fontSize: "15px", paddingTop: "15px" }}
+        >
+          Made with{" "}
+          <box-icon
+            type="solid"
+            name="heart"
+            color="red"
+            size="16px"
+            animation="tada"
+          ></box-icon>{" "}
+          by Mamatha Yarramaneni <br /> Copyright © 2024
+          {/* <a href="#" target="_blank" style={{textDecoration: 'none'}}>
+            
+          </a> */}
+        </span>
+      </div>
     </div>
   );
 }

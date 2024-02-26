@@ -1,18 +1,18 @@
 import "./LandingPage.css";
-import { Avatar, Grid } from "@nextui-org/react";
+import { Avatar, Divider, Grid, Link } from "@nextui-org/react";
 import ub_logo from "../src/images/logo-1.jpeg";
 
 export default function LandingPage() {
+  const name = "<Mamatha Yarramaneni />";
+
   return (
-    <header>
-      <Grid.Container gap={2} style={{ alignItems: "center" }}>
-        <Grid>
-          <Avatar size="xl" src={ub_logo} bordered squared color="warning" />
-        </Grid>
-        <Grid>
-          <a class="logo">Mamatha Yarramaneni</a>
-        </Grid>
-      </Grid.Container>
+    <header style={{ marginLeft: "12%" }}>
+      <div style={{ alignItems: "center", display: "flex" }}>
+
+        <Avatar size="xl" src={ub_logo} bordered color="warning" />
+
+        <a class="logo" style={{ marginLeft: "10px" }}>{name}</a>
+      </div>
       <nav>
         <ul className="mainMenu">
           <li>
@@ -25,11 +25,9 @@ export default function LandingPage() {
             <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#career">Resume</a>
+            <Link isBlock showAnchorIcon target="_blank" href="https://drive.google.com/file/d/1GlDn1WGuHFdBCmFXQLj8K5kmk7U_RgGQ/view?usp=sharing" color="primary">Resume</Link>
           </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
+
         </ul>
       </nav>
     </header>
