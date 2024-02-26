@@ -1,14 +1,17 @@
 header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px 8%;
-    justify-content: space-between;
-    position: fixed;
-    width: 100%;
-    top:0;
-    border-bottom: 2px white;
-    /* margin-left: 5%; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 8%;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  border-bottom: 2px white;
+  z-index: 99;
+  background-color: #EFF3FB;
+  border-top: #020d14;
+  /* margin-left: 5%; */
 }
 
 nav {
@@ -20,10 +23,11 @@ nav {
   float: right;
   font-size: 20px;
   margin-right: 7%;
+  z-index: 99;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 li {
@@ -36,33 +40,35 @@ nav ul {
 }
 
 nav ul li {
-  margin-left: 5px;
-  margin-right: 5px;
+  /* margin-left: 3px;
+  margin-right: 3px; */
 
 }
 
-nav ul li:hover{
-    margin-left: 5px;
-    margin-right: 5px;
-    background-color: #f7d5b2;
-    border-radius: 15px;
-  }
+nav ul li:hover {
+  /* margin-left: 5px;
+  margin-right: 5px; */
+  background-color: #d2e2ff;
+  border-radius: 15px;
+}
 
 nav ul li a {
-  color: rgb(184, 184, 184);;
+  color: rgb(85, 84, 84);
+  ;
   display: block;
   padding: 10px 20px;
 }
 
 nav ul li a:hover {
-    color: rgb(184, 184, 184);;
-    display: block;
-    padding: 10px 20px;
-    color: #05446b;
-  }
+  color: rgb(184, 184, 184);
+  ;
+  display: block;
+  padding: 10px 20px;
+  color: #05446b;
+}
 
 .logo {
-    color: white;
-    font-weight: 900;
-    font-size: 20px;
+  color: Black;
+  font-weight: 900;
+  font-size: 20px;
 }

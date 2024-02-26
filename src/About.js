@@ -1,5 +1,6 @@
 import "./About.css";
-import { Card, Grid, Text } from "@nextui-org/react";
+import { Card, Divider, Grid, Text, Link, Badge } from "@nextui-org/react";
+import girl_logo from "../src/images/illustration.png";
 
 export default function About() {
   const card_css = {
@@ -9,15 +10,40 @@ export default function About() {
     },
   };
   return (
-    <div className="about-section">
+    <div style={{ marginLeft: '10%', marginRight: "10%", marginTop: "5%", height: '100vh' }}>
       <h3 className="about">ABOUT.</h3>
-      <h6 className="about-me">
-        I am a persevering, conscientious, and quick-witted individual.
-        Currently pursuing Masters in Computer Science at the University at
-        Buffalo. Actively seeking full time opportunities starting Jan 2024.
-      </h6>
-      <div className="about-roles">
-        <Grid.Container className="grid-container" gap={1} justify="center">
+      <Divider style={{ width: "50%" }} />
+
+      {/* <Grid Container className="grid-container" gap={1} justify="center">
+          <Grid item xs={6}>
+            <img src={girl_logo} style={{ width: "100%" }}></img>
+          </Grid>
+          <Grid xs={6} style={{ marginLeft: "5px" }}>
+            <h6 className="about-me">
+              🧩 Persevering, Conscientious, and Quick-witted.<br />
+              🧩 Masters in Computer Science, University at Buffalo '23. <br />
+              🧩 Actively seeking full time opportunities starting Jan 2024.
+            </h6>
+          </Grid>
+        </Grid.Container> */}
+      <Grid.Container gap={2} justify="center" style={{ marginTop: "10px", alignItems: "center" }}>
+        <Grid md={6}>
+          <div className="about-me">
+
+            ☘️ Ex- Software Engineer at <Link isBlock showAnchorIcon target="_blank" href="https://www.linkedin.com/company/navis/" color="success">
+              Navis
+            </Link><br />
+            ☘️ <Link isBlock showAnchorIcon target="_blank" href="https://engineering.buffalo.edu/computer-science-engineering.html" color="primary">University at Buffalo </Link>'23, MS CS. <br />
+            ☘️ Persevering, Conscientious, and Quick-witted.<br />
+            ☘️ Values: Teamwork, Feedback, and Continuous Improvement. <br />
+            ☘️ <Badge color="warning" variant="bordered" size='lg'>Seeking full time roles starting Jan 2024.</Badge><br />
+          </div>
+        </Grid>
+        <Grid md={6}>
+          <img src={girl_logo} style={{ width: "100%" }}></img>
+        </Grid>
+      </Grid.Container>
+      {/* <Grid.Container className="grid-container" gap={1} justify="center">
           <Grid lg={3}>
             <Card
               isHoverable
@@ -102,8 +128,8 @@ export default function About() {
               </Card.Body>
             </Card>
           </Grid>
-        </Grid.Container>
-      </div>
+        </Grid.Container> */}
+
     </div>
   );
 }

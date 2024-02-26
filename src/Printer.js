@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Printer.css";
-import { Avatar, Grid } from "@nextui-org/react";
+import { Avatar, Divider, Grid, Badge } from "@nextui-org/react";
 import ub_logo from "../src/images/logo-1.jpeg";
 
 export default function Printer() {
@@ -29,22 +29,25 @@ export default function Printer() {
           <h1 style={{ marginBottom: "0px" }}>Welcome, I'm</h1>
           <h1 className="welcome-message">{str?.slice(0, val)}</h1>
         </div>
+        <Divider style={{ width: "90%" }} />
         <div>
           <h3 className="welcome-submessage">
-            This website is a manifestation of my web development skills. I am a
-            Software Engineer. Please feel free to checkout the website and
-            contact me on my socials. Currently, I'm open to work :D
+            ☘️ Software Engineer <br />
+            ☘️ while(life()) work();<br />
+            ☘️ I'm open to work :D <br />
+
           </h3>
         </div>
-        <Grid.Container gap={4} style={{ alignItems: "center" }}>
+
+        <Grid.Container gap={2} style={{ alignItems: "center", marginTop: "50px" }}>
           <Grid>
             <Avatar
-              size="xl"
+              size="lg"
               src={
                 "https://www.pagetraffic.com/blog/wp-content/uploads/2022/09/linkedin-blue-logo-icon.png"
               }
               bordered
-              squared
+
               color="warning"
               style={{ cursor: "pointer" }}
               onClick={() =>
@@ -54,10 +57,10 @@ export default function Printer() {
           </Grid>
           <Grid>
             <Avatar
-              size="xl"
+              size="lg"
               src={"https://cdn-icons-png.flaticon.com/512/25/25231.png"}
               bordered
-              squared
+
               color="warning"
               style={{ cursor: "pointer" }}
               onClick={() =>
@@ -67,12 +70,12 @@ export default function Printer() {
           </Grid>
           <Grid>
             <Avatar
-              size="xl"
+              size="lg"
               src={
                 "https://assets.leetcode.com/users/leetcode/avatar_1568224780.png"
               }
               bordered
-              squared
+
               color="warning"
               style={{ cursor: "pointer" }}
               onClick={() =>
@@ -82,13 +85,13 @@ export default function Printer() {
           </Grid>
         </Grid.Container>
       </div>
-      <div className="scroll">
+      {/* <div className="scroll">
         <div class="icon-scroll">
           <div class="mouse">
             <div class="wheel"></div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
