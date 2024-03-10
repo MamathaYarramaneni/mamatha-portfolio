@@ -20,7 +20,34 @@ export default function Projects() {
           <Card.Header>
             <div style={cardCss}>
               <h1 style={{ fontSize: "18px" }}>
-                <Link isExternal isBlock showAnchorIcon target="_blank" href="https://engineering.buffalo.edu/computer-science-engineering.html" color="primary">Socket Link C++</Link>
+                <Link isExternal isBlock showAnchorIcon target="_blank" href="https://github.com/MamathaYarramaneni/productivize-pro" color="primary">Productivize: Chrome Extension</Link>
+              </h1>
+              <p css={{ color: "$accents8", marginTop: "0px" }}>
+                <Badge color="primary" variant="flat" size='lg'>
+                  JavaScript
+                </Badge>
+                <Badge color="primary" variant="flat" size='lg'>
+                  Manifest V3
+                </Badge>
+                <Badge color="primary" variant="flat" size='lg'>
+                  HTML
+                </Badge> </p>
+            </div>
+          </Card.Header>
+          <Divider style={{ width: "98%" }} />
+          <Card.Body css={{ py: "$2" }}>
+            <Text style={{ marginRight: "3%", textAlign: "justify" }}>
+              ☘️ Created a Chrome extension with a productivity timer and stopwatch, enabling daily productivity tracking. Empowered with data analysis, enhancing time management efficiency and task completion rates.
+            </Text>
+          </Card.Body>
+        </Card>
+      </div>
+      <div style={{ marginTop: "30px", alignItems: "center" }}>
+        <Card style={{ width: "100%", paddingLeft: "20px", background: '#EFF3FB' }}>
+          <Card.Header>
+            <div style={cardCss}>
+              <h1 style={{ fontSize: "18px" }}>
+                <Link isExternal isBlock showAnchorIcon target="_blank" href="https://github.com/MamathaYarramaneni" color="primary">Socket Link C++</Link>
               </h1>
               <p css={{ color: "$accents8", marginTop: "0px" }}>
                 <Badge color="primary" variant="flat" size='lg'>
@@ -45,7 +72,7 @@ export default function Projects() {
           <Card.Header>
             <div style={cardCss}>
               <h1 style={{ fontSize: "18px" }}>
-                <Link isExternal isBlock showAnchorIcon target="_blank" href="https://engineering.buffalo.edu/computer-science-engineering.html" color="primary">Health Hub Pro</Link>
+                <Link isExternal isBlock showAnchorIcon target="_blank" href="https://github.com/MamathaYarramaneni/HealthHub-React/tree/main/myapp" color="primary">Health Hub Pro</Link>
               </h1>
               <p css={{ color: "$accents8", marginTop: "0px" }}>
                 <Badge color="primary" variant="flat" size='lg'>
@@ -81,7 +108,7 @@ export default function Projects() {
           <Card.Header>
             <div style={cardCss}>
               <h1 style={{ fontSize: "18px" }}>
-                <Link isExternal isBlock showAnchorIcon target="_blank" href="https://engineering.buffalo.edu/computer-science-engineering.html" color="primary">Portfolio Website</Link>
+                <Link isExternal isBlock showAnchorIcon target="_blank" href="https://github.com/MamathaYarramaneni/mamatha-portfolio" color="primary">Portfolio Website</Link>
               </h1>
               <p css={{ color: "$accents8", marginTop: "0px" }}>
                 <Badge color="primary" variant="flat" size='lg'>
@@ -111,7 +138,7 @@ export default function Projects() {
           <Card.Header>
             <div style={cardCss}>
               <h1 style={{ fontSize: "18px" }}>
-                <Link isExternal isBlock showAnchorIcon target="_blank" href="https://engineering.buffalo.edu/computer-science-engineering.html" color="primary">Hashtag Stream Analyzer</Link>
+                <Link isExternal isBlock showAnchorIcon target="_blank" href="https://github.com/MamathaYarramaneni/twitter_hashtag_analysis/blob/main/TestClass.java" color="primary">Hashtag Stream Analyzer</Link>
               </h1>
               <p css={{ color: "$accents8", marginTop: "0px" }}>
                 <Badge color="primary" variant="flat" size='lg'>
@@ -139,7 +166,7 @@ export default function Projects() {
           <Card.Header>
             <div style={cardCss}>
               <h1 style={{ fontSize: "18px" }}>
-                <Link isExternal isBlock showAnchorIcon target="_blank" href="https://engineering.buffalo.edu/computer-science-engineering.html" color="primary">Clickbait Spoiling</Link>
+                <Link isExternal isBlock showAnchorIcon target="_blank" href="https://github.com/MamathaYarramaneni/clickbait-nlp-transformers" color="primary">Clickbait Spoiling</Link>
               </h1>
               <p css={{ color: "$accents8", marginTop: "0px" }}>
                 <Badge color="primary" variant="flat" size='lg'>
