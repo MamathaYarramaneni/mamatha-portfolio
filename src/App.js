@@ -11,11 +11,6 @@ import { Divider } from "@nextui-org/react";
 
 function App() {
   const background = {
-    // background: '#05446b',
-    // backgroundImage: `url(${require("./images/layer-1-3.png")})`,
-    // backgroundPosition: "center",
-    // backgroundSize: "cover",
-    // backgroundRepeat: "no-repeat",
     width: "100vw",
     height: "100vh",
     // scrollY: "smooth",
@@ -49,34 +44,13 @@ function App() {
 
   return (
     <div href="#home">
-
-      {/* <div id="home" style={background}>
-          <div>
-            <LandingPage></LandingPage>
-            <Printer></Printer>
-          </div>
-        </div>
-        <div offset={1} id="about" style={background2}>
-          <About></About>
-        </div>
-        <div offset={2} id="career" style={background3}>
-          <Career></Career>
-        </div>
-        <div offset={3} id="education" style={background3}>
-          <Education></Education>
-        </div>
-        <div offset={4} id="projects" style={background3}>
-          <Projects></Projects>
-        </div>
-      </div> */}
-
       <div className="page">
         <div className="content">
           <LandingPage></LandingPage>
           <Printer></Printer>
         </div>
       </div>
-      <div className="page" >
+      <div className="page">
         <div className="content" id="about">
           <About></About>
         </div>
@@ -96,11 +70,7 @@ function App() {
           <Projects></Projects>
         </div>
       </div>
-      {/* <ParallaxLayer offset={0} className="center" style={{backgroundImage: "linear-gradient(#e66465, #9198e5)"}}>
-        </ParallaxLayer>
-       
-         */}
-      {/* <Printer str="Welcome!, I'm Mamatha 👋"></Printer> */}
+
       <div
         style={{
           bottom: 0,
@@ -111,11 +81,16 @@ function App() {
           textAlign: "center",
           backgroundColor: "#3170dc",
           marginTop: "50px",
-          paddingBottom: "10px"
+          paddingBottom: "10px",
         }}
       >
         <span
-          style={{ color: "white", display: "inline-block", fontSize: "15px", paddingTop: "15px" }}
+          style={{
+            color: "white",
+            display: "inline-block",
+            fontSize: "15px",
+            paddingTop: "15px",
+          }}
         >
           Made with{" "}
           <box-icon

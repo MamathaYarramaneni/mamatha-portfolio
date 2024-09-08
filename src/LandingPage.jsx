@@ -25,7 +25,7 @@ export default function LandingPage() {
             <a href="#projects">Projects</a>
           </li>
           <li>
-            <Link isBlock showAnchorIcon target="_blank" href="https://drive.google.com/file/d/1GlDn1WGuHFdBCmFXQLj8K5kmk7U_RgGQ/view?usp=sharing" color="primary">Resume</Link>
+            <Link isBlock showAnchorIcon target="_blank" href="https://drive.google.com/file/d/1Jg3USsbU9R7Qx9JrYQK1JfEb3JCegmZM/view?usp=sharing" color="primary">Resume</Link>
           </li>
 
         </ul>
