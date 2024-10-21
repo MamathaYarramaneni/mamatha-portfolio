@@ -113,21 +113,24 @@ export default function Career() {
                         textAlign: "justify",
                       }}
                     >
+                      ● Architected and optimized distributed infrastructure,
+                      achieving higly scalable and loose copuled system using
+                      Message Queues and Job Scheduling systems, to scale user
+                      capacity by 500% by re-engineering features to be
+                      asynchronous. <br />
                       ● Spearheaded the integration of an advanced Apache POI
                       PowerPoint export feature within a Spring Boot
                       application, automating workflows and boosting customer
                       efficiency by 75%. Developed and deployed multiple RESTful
                       APIs, leveraging functional programming paradigms.
                       Proficient in Splunk for monitoring/logging, and Postman
-                      for API testing. <br /> ● Architected and optimized
-                      distributed infrastructure to scale user capacity by 500%
-                      by re-engineering features to be asynchronous. Integrated
-                      OpenAI GPT-4o, enhancing text summarization efficiency by
-                      40% within the main application. <br /> ● Conducted API
-                      performance testing and load testing, identifying
-                      breakpoints at 10,000 requests per second. Streamlined
-                      microservices release processes, participating in Agile
-                      practices for continuous improvement and timely delivery.
+                      for API testing. <br /> ● Integrated OpenAI GPT-4o,
+                      enhancing text summarization efficiency by 40% within the
+                      main application. <br /> ● Conducted API performance
+                      testing and load testing, identifying breakpoints at
+                      10,000 requests per second. Streamlined microservices
+                      release processes, participating in Agile practices for
+                      continuous improvement and timely delivery.
                     </p>
                   </li>
                   <li
@@ -236,7 +239,7 @@ export default function Career() {
                   {/* https://www.linkedin.com/company/navis */}
                   <li
                     class="event"
-                    data-date="June'21-Aug'22"
+                    data-date="Jan'21-Aug'22"
                     style={{ background: "#EFF3FB", padding: "0 15px" }}
                   >
                     <div style={cardCss}>
@@ -296,54 +299,8 @@ export default function Career() {
                       and integration: Integrated Navis BWM with Navis N4 with
                       REST and SOAP API calls by developing cross-functional
                       Groovy scripts, ensuring uninterrupted data flow of
-                      10,000+ API calls between microservices.
-                    </p>
-                  </li>
-                  <li
-                    class="event"
-                    data-date="Jan'21-June'21"
-                    style={{ background: "#EFF3FB", padding: "0 15px" }}
-                  >
-                    <div style={cardCss}>
-                      <div style={{ display: "flex", alignItems: "center" }}>
-                        <img
-                          alt="Navis logo"
-                          src={navis_logo}
-                          width="55px"
-                          height="55px"
-                          style={{ border: "solid #555", borderRadius: "5px" }}
-                        />
-                        <Grid.Container css={{ pl: "$6" }}>
-                          <Grid xs={12} style={{ margin: 0 }}>
-                            <h1 style={{ fontSize: "18px" }}>
-                              <Link
-                                isExternal
-                                isBlock
-                                showAnchorIcon
-                                target="_blank"
-                                href="https://www.linkedin.com/company/navis/"
-                                color="success"
-                              >
-                                Navis
-                              </Link>
-                            </h1>
-                          </Grid>
-                          <Grid xs={12}>
-                            <Text css={{ color: "black", marginTop: "0px" }}>
-                              Software Engineer Intern
-                            </Text>
-                          </Grid>
-                        </Grid.Container>
-                      </div>
-                      <div>Chennai, India</div>
-                    </div>
-                    <p
-                      style={{
-                        color: "rgb(116, 114, 114)",
-                        textAlign: "justify",
-                      }}
-                    >
-                      ● Optimized CI/CD pipeline with Jenkins triggers for Git,
+                      10,000+ API calls between microservices. <br /> ●
+                      Optimized CI/CD pipeline with Jenkins triggers for Git,
                       Docker, CircleCI, and Kubernetes auto deployment of
                       automation script built using Javascript and NodeJS;
                       reducing failures by 30% and cutting down deployment time
