@@ -9,7 +9,6 @@ import {
   Avatar,
 } from "@nextui-org/react";
 import "./About.css";
-import ResumeDoc from "../src/files/Mamatha_Yarramaneni_resume.pdf";
 import navis_logo from "./images/logo-navis.png";
 import ub_logo from "./images/logo-ub.png";
 
@@ -73,8 +72,7 @@ export default function Education() {
           <Card.Header>
             <img
               alt="sastra logo"
-              src="https://yt3.googleusercontent.com/sO3qth8BMUdniBjTSgzYf35RarbBGTp2-H-FtxQxQ6RuUUkL91MF_98gvR1VE9NvOxFd57OCK3Q=s900-c-k-c0x00ffffff-no-rj"
-              width="55px"
+              src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/Shanmugha_Arts%2C_Science%2C_Technology_%26_Research_Academy.svg/2560px-Shanmugha_Arts%2C_Science%2C_Technology_%26_Research_Academy.svg.png"
               height="55px"
               style={{ border: "solid #555", borderRadius: "5px" }}
             />

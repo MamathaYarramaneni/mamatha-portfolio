@@ -9,7 +9,6 @@ import {
   Avatar,
 } from "@nextui-org/react";
 import "./About.css";
-import ResumeDoc from "../src/files/Mamatha_Yarramaneni_resume.pdf";
 import navis_logo from "./images/logo-navis.png";
 import ub_logo from "./images/logo-ub.png";
 import resonate_logo from "./images/logo-resonate.png";
@@ -50,7 +49,7 @@ export default function Career() {
               isBlock
               showAnchorIcon
               target="_blank"
-              href="https://drive.google.com/file/d/1Jg3USsbU9R7Qx9JrYQK1JfEb3JCegmZM/view?usp=sharing"
+              href="https://drive.google.com/file/d/12345/view?usp=sharing"
               color="primary"
             >
               Resume
